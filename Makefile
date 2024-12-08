@@ -1,6 +1,6 @@
-PYTHON_ENVIRONMENT = "neural_schemata"
+PYTHON_ENVIRONMENT = "neural-schemata"
 PYTHON_VERSION = "3.9.20"
-SOURCE_FILES = feature_analysis/ tests/
+SOURCE_FILES = neural_schemata/ tests/
 
 TEMPORARY_FILES = pytest_results/ .coverage *.egg-info/ dist/ .ruff_cache/ .mypy_cache/ .pytest_cache/
 NON_TEXT_FILES_REGEX = "\.pyc$$|^\.git/|^\.idea/|^\.ruff_cache/|^.mypy_cache/|^.coverage$$|^pytest_results/|^.pytest_cache/"
