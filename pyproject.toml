@@ -72,7 +72,11 @@ warn_return_any = true
 warn_unreachable = true
 
 [[tool.mypy.overrides]]
-module = []
+ignore_missing_imports = true
+module = [
+    "keras.*",
+    "tensorflow.*",
+]
 
 [tool.coverage.run]
 branch = true
